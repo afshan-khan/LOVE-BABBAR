@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head> <script>
+      function abc(){
+          var x=document.frm1.t1.value;
+          var y=document.frm1.t2.value;
+          if(x=="" || y ==""){
+              alert("Enter name and password");
+          }
+          else{
+              alert("Login successfully");
+          }
+          
+      }
+  </script></head>
+  <body>
+  <form name="frm1">
+      Username : <input type="text" name="t1"><br/><br/>
+      Password : <input type="password" name="t2">
+      <br/><br/><input type="button" value="Login" onclick="abc()">
+      </form>
+  </body>
+</html>
